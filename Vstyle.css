@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #2e0854, #541a9b);
+  color: #e0d4f7;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px; /* Добавим немного отступов сверху и снизу, если нужно */
+  min-height: 100%;
+  /* Убираем flexbox для body */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+h1 {
+  color: #c0b2ff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-align: center;  /* Центрируем заголовки, если это требуется */
+}
+h2 {
+  color: #c0b2ff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-align: center;  /* Центрируем заголовки, если это требуется */
+}
+
+h4 {
+  color: #a394e6;
+  font-style: italic;
+  margin-bottom: 1em;
+  text-align: center; /* Центрируем подзаголовки, если это требуется */
+
+}
+
+p {
+  color: #d1c6f0;
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+  max-width: 800px;
+  text-align: center;
+}
+
+audio[controls] {
+  background-color: #734ca0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 1em;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Дополнительные стили для элементов управления audio (опционально) */
+audio[controls]::-webkit-media-controls-panel {
+  background-color: #603e8a;
+  color: #e0d4f7;
+}
+
+audio[controls]::-webkit-media-controls-play-button {
+  color: #e0d4f7;
+}
+
+audio[controls]::-webkit-media-controls-mute-button {
+  color: #e0d4f7;
+}
+
+audio[controls]::-webkit-media-controls-current-time-display {
+  color: #e0d4f7;
+}
+
+audio[controls]::-webkit-media-controls-time-remaining-display {
+  color: #e0d4f7;
+}
+
+audio[controls]::-webkit-media-controls-timeline {
+  color: #e0d4f7;
+}
+
+audio[controls]::-webkit-media-controls-volume-slider {
+  color: #e0d4f7;
+}
